@@ -5,7 +5,7 @@ const index = () => {
   return (
     <ScrollView contentContainerStyle={{ flexGrow: 1 }}   style={{ flex: 1, backgroundColor: "#89e914ff" }} >
       <View>
-        <Text style={styles.text}>Index</Text>
+        <Text style={styles.text}>Home</Text>
       </View>
       <View style={styles.container}>
         <Text style={{fontSize:20}}>Welcome to the Index</Text>
