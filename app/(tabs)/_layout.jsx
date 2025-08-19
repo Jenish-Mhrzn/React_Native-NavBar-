@@ -1,49 +1,43 @@
-import { View, Text } from 'react-native'
-import React from 'react'
-import { Tabs } from 'expo-router'
-import TabBar from "../../components/TabBar.jsx"
+import { View, Text } from "react-native";
+import React from "react";
+import { Tabs } from "expo-router";
+import TabBar from "../../components/TabBar.jsx";
 
 const _layout = () => {
   return (
-    <Tabs
-    tabBar={props => <TabBar {...props}/>}
-    >
+    <Tabs tabBar={(props) => <TabBar {...props} />}>
       <Tabs.Screen
-        name='index'
+        name="index"
         options={{
           title: "Home",
-          headerShown:false,
+          headerShown: false,
         }}
-      >
-      </Tabs.Screen>
+      ></Tabs.Screen>
       <Tabs.Screen
-        name='explore'
+        name="explore"
         options={{
           title: "Explore",
-          headerShown:false,
+          headerShown: false,
         }}
-      >
-      </Tabs.Screen>
+      ></Tabs.Screen>
 
       <Tabs.Screen
-        name='contact'
+        name="contact"
         options={{
           title: "Contact",
-          headerShown:false,
+          headerShown: false,
         }}
-      >
-      </Tabs.Screen>
+      ></Tabs.Screen>
 
       <Tabs.Screen
-        name='setting'
+        name="setting"
         options={{
           title: "Setting",
-          headerShown:false,
+          headerShown: false,
         }}
-      >
-      </Tabs.Screen>
+      ></Tabs.Screen>
     </Tabs>
-  )
-}
+  );
+};
 
-export default _layout
+export default _layout;
