@@ -14,9 +14,9 @@ const _layout = () => {
         }}
       ></Tabs.Screen>
       <Tabs.Screen
-        name="explore"
+        name="crud"
         options={{
-          title: "Explore",
+          title: "CRUD",
           headerShown: false,
         }}
       ></Tabs.Screen>

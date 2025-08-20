@@ -6,7 +6,7 @@ import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 export default function TabBar({ state, descriptors, navigation }) {
   const icon = {
     index: (props) => <AntDesign name="home" size={26} {...props} />,
-    explore: (props) => <MaterialIcons name="explore" size={26} {...props} />,
+    crud: (props) => <MaterialIcons name="explore" size={26} {...props} />,
     contact: (props) => <AntDesign name="contacts" size={26} {...props} />,
     setting: (props) => <AntDesign name="setting" size={26} {...props} />,
   };
