@@ -74,7 +74,7 @@ const App = () => {
   }
 
   return (
-    <GestureHandlerRootView style={{ flex: 1, backgroundColor:"white" }}>
+    <GestureHandlerRootView style={{ flex: 1, backgroundColor: "white" }}>
       <View style={styles.container}>
         <Text style={styles.topic}>CRUD OPERATION</Text>
         <View>

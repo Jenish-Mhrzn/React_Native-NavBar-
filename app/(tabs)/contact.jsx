@@ -31,6 +31,7 @@ const contact = () => {
               data: [
                 "Jackson",
                 "James",
+                "Jeni",
                 "Jillian",
                 "Jimmy",
                 "Joel",
